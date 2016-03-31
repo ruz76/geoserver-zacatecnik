@@ -109,54 +109,12 @@ Obvyklou odpovědí je kolekce geoprvků. Jejich popis je kódován pomocí jazy
 	 ...
 	</wfs:FeatureCollection>  
 
-Úkoly
-=====
+WFS kolekce
+===========
 
-Pracujte pouze s URL adresou a ručně změňte následující parametry.
+Kolekce v podobě GML obsahuje řadu informací. V hlavičce např. najdeme link na
+popis dat (pomocí zavolání operace DescribeFeatureType. Samotný obsah je tvořen
+řadou tzv. gml:featureMember, což jsou jednotlivé geoprvky. Geoprvky mohou být složené,
+ale obvykle, tak jako v našem případě jsou jednoduché. Tedy sestávají z jednoho objektu (sf:archsites),
+který je reprezentován jednou geometrií (sf:the_geom) a sadou dalších atributů (sf:cat, sf:str1).
 
-Format
-^^^^^^
-Změňte výstupní formát, tak aby se nejednalo o aplikaci Open Layers, ale o formát image/png.
-
-BBOX
-^^^^
-Změňte BBOX, tak aby zobrazoval pouze výřez mapy.
-
-Layers
-^^^^^^
-Přidejte do sezamu vrstev vrstvu sf:restricted, tak aby se vykreslila pod vrstvou sf:archsites.  
-
-Řešení úkolů
-============
-
-Format
-^^^^^^
-http://localhost:8080/geoserver/sf/wms?service=WMS&version=1.1.0&request=GetMap&layers=sf:archsites&styles=&bbox=589851.4376666048,4914490.882968263,608346.4603107043,4926501.8980334345&width=768&height=498&srs=EPSG:26713&format=image/png
-
-.. figure:: images/wms_png.png
-
-   Parametr FORMAT změněn na image/png.
-   
-.. note:: Obrázek může v jiném prohlížeči vypadat jinak. Např. tak jako v chromium-browser.
-
-.. figure:: images/wms_png_chromium.png
-
-   Parametr BBOX změněn na výřez mapy (chromium).
-
-BBOX
-^^^^
-http://localhost:8080/geoserver/sf/wms?service=WMS&version=1.1.0&request=GetMap&layers=sf:archsites&styles=&bbox=589851,4914490,597531,4919470&width=768&height=498&srs=EPSG:26713&format=application/openlayers
-
-.. figure:: images/wms_bbox.png
-
-   Parametr BBOX změněn na výřez mapy.
-
-
-Layers
-^^^^^^
-http://localhost:8080/geoserver/sf/wms?service=WMS&version=1.1.0&request=GetMap&layers=sf:restricted,sf:archsites&styles=,&bbox=589851.4376666048,4914490.882968263,608346.4603107043,4926501.8980334345&width=768&height=498&srs=EPSG:26713&format=application/openlayers 
-
-
-.. figure:: images/wms_layers.png
-
-   Do parametru LAYERS přidána další vrstva.
