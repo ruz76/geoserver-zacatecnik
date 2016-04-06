@@ -42,13 +42,13 @@ na disk. Nedoporučují se adresáře s diakritikou a mezerami.
 
 Následně je nutné upravit spouštěč serveru, tak aby věděl, kde je k dispozici JRE.
 Přesuneme se do adresáře bin rozbaleného serveru. Zjistíme kde se nachází JRE.
-Upravíme spouštěč startup.sh přidáním infomrace o umístění JAVA_HOME.
+Upravíme spouštěč startup.sh přidáním informace o umístění JAVA_HOME.
 
 .. raw:: latex
  
 	 \newpage
 
-.. notecmd:: Instalace JRE
+.. notecmd:: Instalace GeoServer
                
    .. code-block:: bash
 
