@@ -8,7 +8,7 @@ MS Windows
 ----------
 
 Systém GeoServer je možné pod MS Windows nainstalovat několika způsoby.
-jako osvědčený způsob se jeví využití platformně nezávislého balíčku.
+Jako osvědčený způsob se jeví využití platformně nezávislého balíčku.
 
 Platformně nezávislý balíček
 ============================
@@ -26,7 +26,7 @@ Další možností je využít Windows installer. Obvykle s ním nejsou problém
 mohou se vyskytnout, proto jej nedoporučujeme.
 
 Další možností instalace je využití servlet kontejneru (např. Tomcat nebo JBOSS).
-Tomcat nebo JBOSS se instraluje pomocí balíčků. GeoServer se pak instaluje nakopírováním
-Web Archive (soubor s příponou WAR) do struktur Tomcat nebo JBOSS.
+Tomcat nebo JBOSS se instraluje pomocí instalátorů (MSI, EXE). GeoServer se pak 
+instaluje nakopírováním Web Archive (soubor s příponou WAR) do struktur Tomcat nebo JBOSS.
 
 .. note:: Tyto způsoby instalace GeoServeru nejsou pro začátečníky vhodné.
