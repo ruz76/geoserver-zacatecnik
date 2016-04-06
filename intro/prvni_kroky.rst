@@ -39,7 +39,7 @@ Možné problémy a jejich řešení
 
 Obvyklým problémem je nespuštění serveru s chybovou hláškou
 Address already in use. To znamená, že na portu 8080, kde
-se server startuje již něco běží.
+se server startuje, již něco běží.
 
 V takovém případě je nutné změnit port pro start serveru.
 Toto se dělá v souboru etc/jetty.xml nahrazením portu 8080
@@ -53,7 +53,7 @@ Ověření běhu
 
 Informační hláška INFO:  Started SelectChannelConnector@0.0.0.0:8080
 bohužel nemusí znamenat, že server běží. Toto je nutné ověřit.
-Ověření se dělá přes WW prohlížeč zadáním adresy:
+Ověření se dělá přes WWW prohlížeč zadáním adresy:
 http://localhost:8080/geoserver/
 
 .. note:: V případě, že jste změnili port je nutné i zde zadat jiné číslo portu než 8080.
