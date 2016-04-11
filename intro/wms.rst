@@ -112,7 +112,20 @@ Přidejte do sezamu vrstev vrstvu sf:restricted, tak aby se vykreslila pod vrstv
 
 Format
 ^^^^^^
-http://localhost:8080/geoserver/sf/wms?service=WMS&version=1.1.0&request=GetMap&layers=sf:archsites&styles=&bbox=589851.4376666048,4914490.882968263,608346.4603107043,4926501.8980334345&width=768&height=498&srs=EPSG:26713&format=image/png
+
+.. code-block:: sql
+	
+	http://localhost:8080/geoserver/sf/wms?
+	service=WMS&
+	version=1.1.0&
+	request=GetMap&
+	layers=sf:archsites&
+	styles=&
+	bbox=589851.4376666048,4914490.882968263,608346.4603107043,4926501.8980334345&
+	width=768&
+	height=498&
+	srs=EPSG:26713&
+	format=image/png
 
 .. figure:: images/wms_png.png
 
@@ -126,7 +139,19 @@ http://localhost:8080/geoserver/sf/wms?service=WMS&version=1.1.0&request=GetMap&
 
 BBOX
 ^^^^
-http://localhost:8080/geoserver/sf/wms?service=WMS&version=1.1.0&request=GetMap&layers=sf:archsites&styles=&bbox=589851,4914490,597531,4919470&width=768&height=498&srs=EPSG:26713&format=application/openlayers
+.. code-block:: sql
+	
+	http://localhost:8080/geoserver/sf/wms?
+	service=WMS&
+	version=1.1.0&
+	request=GetMap&
+	layers=sf:archsites&
+	styles=&
+	bbox=589851,4914490,597531,4919470&
+	width=768&
+	height=498&
+	srs=EPSG:26713&
+	format=application/openlayers
 
 .. figure:: images/wms_bbox.png
 
@@ -135,8 +160,20 @@ http://localhost:8080/geoserver/sf/wms?service=WMS&version=1.1.0&request=GetMap&
 
 Layers
 ^^^^^^
-http://localhost:8080/geoserver/sf/wms?service=WMS&version=1.1.0&request=GetMap&layers=sf:restricted,sf:archsites&styles=,&bbox=589851.4376666048,4914490.882968263,608346.4603107043,4926501.8980334345&width=768&height=498&srs=EPSG:26713&format=application/openlayers 
 
+.. code-block:: sql
+
+	http://localhost:8080/geoserver/sf/wms?
+	service=WMS&
+	version=1.1.0&
+	request=GetMap&
+	layers=sf:restricted,sf:archsites&
+	styles=,&
+	bbox=589851.4376666048,4914490.882968263,608346.4603107043,4926501.8980334345&
+	width=768&
+	height=498&
+	srs=EPSG:26713&
+	format=application/openlayers 
 
 .. figure:: images/wms_layers.png
 

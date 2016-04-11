@@ -67,7 +67,7 @@ http://localhost:8080/geoserver/
    Ověření spuštění systému GeoServer.
 
 V případě, že se objeví uvítací obrazovka je systém pravděpodobně spuštěn.
-Přesto je vhondé provést ještě jedno ověření. Ověření se realizuje výběrem Layer Preview
+Přesto je vhodné provést ještě jedno ověření. Ověření se realizuje výběrem Layer Preview
 a výběrem možnosti Open Layers u vrstvy sf:archsites. Pokud se objeví mapa bodové vrstvy, je
 systém spuštěn.
 
