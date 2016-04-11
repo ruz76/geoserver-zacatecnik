@@ -46,7 +46,7 @@ Toto se dělá v souboru etc/jetty.xml nahrazením portu 8080
 jiným číslem např. 25000. U portu s čísly většími než 20000
 se dá očekávat, že jsou volné.
 
-.. note:: V případě, že toto nepomůže je problém složitější a je nutné kontaktovat tutora.
+.. note:: V případě, že toto nepomůže je problém složitější a je nutné kontaktovat lektora.
 
 Ověření běhu
 ============

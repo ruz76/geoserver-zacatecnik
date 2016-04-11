@@ -62,7 +62,7 @@ Další možnosti instalace
 ========================
 
 Další možností instalace je využití servlet kontejneru (např. Tomcat nebo JBOSS).
-Tomcat nebo JBOSS se instraluje pomocí balíčků. GeoServer se pak instaluje nakopírováním
+Tomcat nebo JBOSS se instaluje pomocí balíčků. GeoServer se pak instaluje nakopírováním
 Web Archive (soubor s příponou WAR) do struktur Tomcat nebo JBOSS.
 
 .. note:: Tento způsob instalace GeoServeru není pro začátečníky vhodný.

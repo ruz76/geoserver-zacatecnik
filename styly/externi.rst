@@ -12,7 +12,7 @@ jakožto externí zdroje grafiky.
 Jednoduchá externí grafika
 ==========================
 
-Příkladěm jednoduché externí grafiky je styl burg. Na ukázku tohto stylu se můžete podívat, tak
+Příkladem jednoduché externí grafiky je styl burg. Na ukázku tohto stylu se můžete podívat, tak
 že ve WMS dotazu na vrstvu sf:archsites zadáte hodnotu parametru STYLE jako burg. 
 Výsledek pak vypadá jako na následující ukázce.
 
