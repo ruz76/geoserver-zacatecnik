@@ -12,8 +12,8 @@ takto filtrovaným datům. V principu se vytvoří několik pravidel, pro každ�
 Jednoduchý pseudokartogram
 ==========================
 
-Příkladem jednoduchého pseudokartogramu je styl population. Na ukázku tohto stylu se můžete 
-podívat, tak že si v náhlkedu vrstev vyberete vrstu USA population (topp:states). 
+Příkladem jednoduchého pseudokartogramu je styl `population`. Na ukázku tohto stylu se můžete 
+podívat, tak že si v náhledu vrstev vyberete vrstu `USA population` (`topp:states`). 
 Výsledek pak vypadá jako na následující ukázce.
  
 .. figure:: images/population.png
@@ -122,10 +122,10 @@ Výsledek pak vypadá jako na následující ukázce.
     </NamedLayer>
     </StyledLayerDescriptor>
 
-Filtrace se realizuje pomocí nástroje ogc:Filter. Tento nástroj je poměrně bohatý. V našem případě 
-se filtrují data na základě atributu PERSONS (počet obyvatel) pomocí značky ogc:PropertyName.
+Filtrace se realizuje pomocí nástroje `ogc:Filter`. Tento nástroj je poměrně bohatý. V našem případě 
+se filtrují data na základě atributu `PERSONS` (počet obyvatel) pomocí značky `ogc:PropertyName`.
 Porovnání se realizuje definicí operátoru např. pro první pravidlo je použit operátor 
-ogc:PropertyIsLessThan (menší než) a zadání hodnoty pro porovnání ogc:Literal.
+`ogc:PropertyIsLessThan` (menší než) a zadání hodnoty pro porovnání `ogc:Literal`.
 
 Úkoly
 =====
@@ -135,12 +135,12 @@ přes Layer Preview obnovit mapu.
 
 Nezaměstnaní
 ^^^^^^^^^^^^
-Upravte styl population tak aby rozdělil státy USA do pěti kategorií podle počtu nezaměstnaných (UNEMPLOY).
+Upravte styl population tak aby rozdělil státy USA do pěti kategorií podle počtu nezaměstnaných (`UNEMPLOY`).
 
 Procento nezaměstnaných na počet obyvatel
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Upravte styl population tak aby rozdělil státy USA do pěti kategorií podle procenta nezaměstnaných (UNEMPLOY)
-na celkový počet obyvatel (PERSONS).  
+Upravte styl population tak aby rozdělil státy USA do pěti kategorií podle procenta nezaměstnaných (`UNEMPLOY`)
+na celkový počet obyvatel (`PERSONS`).  
 
 
 Řešení úkolů

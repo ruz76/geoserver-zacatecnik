@@ -13,7 +13,7 @@ GNU/Linux - Ubuntu
 
 Instalace programů napsaných v jazyce Java spočívá v instalaci JRE
 (Java Runtime Environment). JRE bývá obvykle již v systému Ubuntu k dispozici.
-Pokud tomu tak není je její instalace je založená na tzv. balíčcích, které jsou k
+Pokud tomu tak není, je její instalace založená na tzv. balíčcích, které jsou k
 dispozici v repozitářích.
 Existuje řada verzí JRE, základní open source verze dostupná ve všech repozitářích 
 by měla pro běh serveru dostačovat. 
@@ -37,12 +37,12 @@ Instalace GeoServer
 ===================
 
 Pro účely školení a seznamování se s nástrojem GeoServer je vhodná varianta 
-Platform Independent Binary. Jedná se o ZIP archiv, který je možné rozbalit kdekoli
+`Platform Independent Binary`. Jedná se o ZIP archiv, který je možné rozbalit kdekoli
 na disk. Nedoporučují se adresáře s diakritikou a mezerami.
 
-Následně je nutné upravit spouštěč serveru, tak aby věděl, kde je k dispozici JRE.
-Přesuneme se do adresáře bin rozbaleného serveru. Zjistíme kde se nachází JRE.
-Upravíme spouštěč startup.sh přidáním informace o umístění JAVA_HOME.
+Následně je nutné upravit spouštěč serveru, tak aby věděl, kde je k dispozici `JRE`.
+Přesuneme se do adresáře bin rozbaleného serveru. Zjistíme kde se nachází `JRE`.
+Upravíme spouštěč startup.sh přidáním informace o umístění `JAVA_HOME`.
 
 .. raw:: latex
  

@@ -16,8 +16,8 @@ Základní dotaz WMS
 ==================
 
 Základní dotaz WMS jsme již na server zaslali, když jsme testovali, zda
-server běží. Pokud jste již dané okno zavřeli, pak znovu přes Layer Preview
-vyberte možnost Open Layers pro vrstvu sf:archsites. 
+server běží. Pokud jste již dané okno zavřeli, pak znovu přes `Layer Preview`
+vyberte možnost `Open Layers` pro vrstvu `sf:archsites`. 
 
 Kompletní dotaz zaslaný na stranu serveru najdete v řádku URL (WWW) adresy.
 
@@ -58,7 +58,7 @@ Parametr udává verzi služby (protokolu), která má být využita.
 Request
 ^^^^^^^
 Typ požadavku, který má být obsloužen. V případě WMS jsou možné hodnoty 
-GetCapabilities, GetMap a GetFeatureInfo.
+`GetCapabilities`, `GetMap` a `GetFeatureInfo`.
 
 Layers
 ^^^^^^
@@ -71,7 +71,7 @@ Pokud není nic uvedeno, použije se implicitní styl.
 
 BBOX
 ^^^^
-Seznam souřadnic udávající ohraničující obdélník, pro výběr dat k vykreslení. 
+Seznam souřadnic udávající ohraničující obdélník pro výběr dat k vykreslení. 
 
 Width
 ^^^^^
@@ -84,11 +84,11 @@ Výška mapy v pixelech.
 SRS nebo CRS
 ^^^^^^^^^^^^
 Souřadnicový systém pro BBOX. Pro vezi 1.3.0 se označuje tento paramatr CRS.
-K identifikaci systému se využívá kódů z databází. Hlavní databáze je EPSG.
+K identifikaci systému se využívá kódů z databází. Hlavní databáze je `EPSG`.
 
 Format
 ^^^^^^
-Formát výstupního soubor.
+Formát výstupního souboru.
 
 Úkoly
 =====
@@ -97,15 +97,15 @@ Pracujte pouze s URL adresou a ručně změňte následující parametry.
 
 Format
 ^^^^^^
-Změňte výstupní formát, tak aby se nejednalo o aplikaci Open Layers, ale o formát image/png.
+Změňte výstupní formát, tak aby se nejednalo o aplikaci `Open Layers`, ale o formát `image/png`.
 
 BBOX
 ^^^^
-Změňte BBOX, tak aby zobrazoval pouze výřez mapy.
+Změňte `BBOX`, tak aby zobrazoval pouze výřez mapy.
 
 Layers
 ^^^^^^
-Přidejte do sezamu vrstev vrstvu sf:restricted, tak aby se vykreslila pod vrstvou sf:archsites.  
+Přidejte do seznamu vrstev vrstvu `sf:restricted`, tak aby se vykreslila pod vrstvou sf:archsites.  
 
 Řešení úkolů
 ============
@@ -129,13 +129,13 @@ Format
 
 .. figure:: images/wms_png.png
 
-   Parametr FORMAT změněn na image/png.
+   Parametr `FORMAT` změněn na `image/png`.
    
 .. note:: Obrázek může v jiném prohlížeči vypadat jinak. Např. tak jako v chromium-browser.
 
 .. figure:: images/wms_png_chromium.png
 
-   Parametr BBOX změněn na výřez mapy (chromium).
+   Parametr `FORMAT` změněn na `image/png` (chromium).
 
 BBOX
 ^^^^
@@ -155,7 +155,7 @@ BBOX
 
 .. figure:: images/wms_bbox.png
 
-   Parametr BBOX změněn na výřez mapy.
+   Parametr `BBOX` změněn na výřez mapy.
 
 
 Layers
@@ -177,4 +177,4 @@ Layers
 
 .. figure:: images/wms_layers.png
 
-   Do parametru LAYERS přidána další vrstva.
+   Do parametru `LAYERS` přidána další vrstva.

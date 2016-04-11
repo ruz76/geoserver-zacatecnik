@@ -29,7 +29,8 @@
 `GeoServer <http://www.geoserver.org/>`_  je Open Source server určený pro sdílení prostorových dat publikovaný pod 
 všeobecnou licencí GNU GPL. Mezi hlavní výhody patří zejména rychlost vývoje a rozšiřování jeho funkcionality.
 Licence GNU GPL umožňuje používání software i pro komerční účely. Podstatné je, že
-umožňuje i modifikaci zdrojového kódu a jeho následné šíření.
+umožňuje i modifikaci zdrojového kódu a jeho následné šíření. Neznedbatelnou výhodou serveru je existence grafického
+uživatelského rozhraní pro administraci systému a sada cvičných dat, které jsou automaticky po instalaci vypublikovány.
 
 .. only:: latex
 
@@ -52,7 +53,7 @@ umožňuje i modifikaci zdrojového kódu a jeho následné šíření.
 
    \newpage
 
-GeoServer je psán v programovacím jazyce Java a uživatelské prostředí je
+GeoServer je psán v programovacím jazyce Java a uživatelské prostředí 
 pro konfiguraci v jazyce Java a HTML. Díky použití těchto rozšířených
 programovacích prostředků je GeoServer multiplatformní, tudíž jej lze
 využívat na většině používaných operačních systémech jako je MS

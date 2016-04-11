@@ -12,8 +12,8 @@ jakým způsobem budou data prezentována.
 Publishing
 ==========
 
-Karta Publishing nabízí zejména nastavení implicitního stylu a seznamu doporučovaných
-aletrnativních stylů. 
+Karta `Publishing` nabízí zejména nastavení implicitního stylu a seznamu doporučovaných
+alternativních stylů. 
 
 .. figure:: images/pub1.png
 

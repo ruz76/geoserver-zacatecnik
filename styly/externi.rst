@@ -6,14 +6,14 @@
 Externí grafika
 ---------------
 
-Obvykle si se základními Well Known jmény nevystačíme. Pak je možné využívat obrázky
+Obvykle si se základními `Well Known` jmény nevystačíme. Pak je možné využívat obrázky
 jakožto externí zdroje grafiky.
 
 Jednoduchá externí grafika
 ==========================
 
 Příkladem jednoduché externí grafiky je styl burg. Na ukázku tohto stylu se můžete podívat, tak
-že ve WMS dotazu na vrstvu sf:archsites zadáte hodnotu parametru STYLE jako burg. 
+že ve WMS dotazu na vrstvu sf:archsites zadáte hodnotu parametru `STYLE` jako `burg`. 
 Výsledek pak vypadá jako na následující ukázce.
 
 .. code-block:: sql
@@ -37,9 +37,13 @@ Výsledek pak vypadá jako na následující ukázce.
 .. code-block:: xml
 
    <?xml version="1.0" encoding="ISO-8859-1"?>
-   <StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc"
-  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+   <StyledLayerDescriptor version="1.0.0" 
+   xmlns="http://www.opengis.net/sld" 
+   xmlns:ogc="http://www.opengis.net/ogc"
+   xmlns:xlink="http://www.w3.org/1999/xlink" 
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.opengis.net/sld 
+   http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
     <Name>redflag</Name>
     <UserStyle>
@@ -69,13 +73,13 @@ Výsledek pak vypadá jako na následující ukázce.
   </StyledLayerDescriptor> 
 
 
-Místo značky Mark je použita značka ExternalGraphic, kde je ve značce OnlineResource uvedena cesta k souboru
-s obrázekm. Ve značce Format je pak uveden formát obrázku (vhodný je SVG nebo PNG).
+Místo značky `Mark` je použita značka `ExternalGraphic`, kde je ve značce `OnlineResource` uvedena cesta k souboru
+s obrázkem. Ve značce `Format` je pak uveden formát obrázku (vhodný je SVG nebo PNG).
 
 Úkoly
 =====
 
-Vytvořte vlastní ikonu buď ve formátu SVG nebo PNG a změňte styl burg, tak aby odkazoval na tento obrázek.
+Vytvořte vlastní ikonu buď ve formátu SVG nebo PNG a změňte styl `burg`, tak aby se odkazoval na tento obrázek.
 
 .. note:: Nový obrázek musíte nakopírovat do adresáře data_dir/styles.
 
@@ -88,9 +92,13 @@ Nová ikona
 .. code-block:: xml
 
    <?xml version="1.0" encoding="ISO-8859-1"?>
-   <StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc"
-  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+   <StyledLayerDescriptor version="1.0.0" 
+   xmlns="http://www.opengis.net/sld" 
+   xmlns:ogc="http://www.opengis.net/ogc"
+   xmlns:xlink="http://www.w3.org/1999/xlink" 
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.opengis.net/sld 
+   http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
     <Name>redflag</Name>
     <UserStyle>
@@ -122,5 +130,7 @@ Nová ikona
 .. figure:: images/hrad.png
 
    Ikona hrad
-   
-Obrázek hrad.svg ke stažení. TODO - nevím jak udělat link - měl tam Jelen
+
+.. figure:: images/hrad.svg
+
+   Ikona hrad ve formátu SVG.  

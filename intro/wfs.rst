@@ -9,14 +9,14 @@ Web Feature Service
 Druhý základní protokol, který GeoServer podporuje je
 Web Feature Service (WFS). WFS umožňuje klientovi ze
 serveru získat geodata v podobě vektoru s atributy. Obvykle se jedná
-o kolekci kódovanou v jazyce GML (Geography Markup Language), ale není to podmínkou.
+o kolekci kódovanou v jazyce `GML (Geography Markup Language)`, ale není to podmínkou.
 Data mohou být vrácena např. ve formátu ESRI Shapefile.
    
 Základní dotaz WFS
 ==================
 
 Základní dotaz WFS je možné zaslat přes Layer Preview a
-vyberat možnost GML pro vrstvu sf:archsites. 
+vybrat možnost GML pro vrstvu sf:archsites. 
 
 Kompletní dotaz zaslaný na stranu serveru najdete v řádku URL (WWW) adresy.
 
@@ -51,7 +51,7 @@ Parametr udává verzi služby (protokolu), která má být využita.
 Request
 ^^^^^^^
 Typ požadavku, který má být obsloužen. V případě WFS je možných několik hodnot, jako
-hlavní lze uvést GetCapabilities, GetFeature a DescribeFeatureType.
+hlavní lze uvést `GetCapabilities`, `GetFeature` a `DescribeFeatureType`.
 
 TypeName
 ^^^^^^^^
@@ -87,7 +87,9 @@ Obvyklou odpovědí je kolekce geoprvků. Jejich popis je kódován pomocí jazy
 	   <sf:the_geom>
 	    <gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#26713">
 		 <gml:coordinates 
-		  xmlns:gml="http://www.opengis.net/gml" decimal="." cs="," ts=" ">593493,4914730</gml:coordinates>
+		  xmlns:gml="http://www.opengis.net/gml" decimal="." cs="," ts=" ">
+		  593493,4914730
+		 </gml:coordinates>
 		</gml:Point>
 	   </sf:the_geom>
 	   <sf:cat>1</sf:cat>
@@ -99,7 +101,9 @@ Obvyklou odpovědí je kolekce geoprvků. Jejich popis je kódován pomocí jazy
 	   <sf:the_geom>
 	    <gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#26713">
 		 <gml:coordinates 
-		  xmlns:gml="http://www.opengis.net/gml" decimal="." cs="," ts=" ">591950,4923000</gml:coordinates>
+		  xmlns:gml="http://www.opengis.net/gml" decimal="." cs="," ts=" ">
+		  591950,4923000
+		 </gml:coordinates>
 		</gml:Point>
 	   </sf:the_geom>
 	   <sf:cat>2</sf:cat>
@@ -113,8 +117,8 @@ WFS kolekce
 ===========
 
 Kolekce v podobě GML obsahuje řadu informací. V hlavičce např. najdeme link na
-popis dat (pomocí zavolání operace DescribeFeatureType. Samotný obsah je tvořen
-řadou tzv. gml:featureMember, což jsou jednotlivé geoprvky. Geoprvky mohou být složené,
-ale obvykle, tak jako v našem případě jsou jednoduché. Tedy sestávají z jednoho objektu (sf:archsites),
-který je reprezentován jednou geometrií (sf:the_geom) a sadou dalších atributů (sf:cat, sf:str1).
+popis dat (pomocí zavolání operace `DescribeFeatureType`). Samotný obsah je tvořen
+řadou tzv. `gml:featureMember`, což jsou jednotlivé geoprvky. Geoprvky mohou být složené,
+ale obvykle, tak jako v našem případě jsou jednoduché. Tedy sestávají z jednoho objektu (`sf:archsites`),
+který je reprezentován jednou geometrií (`sf:the_geom`) a sadou dalších atributů (`sf:cat`, `sf:str1`).
 

@@ -6,7 +6,7 @@
 Jednoduchý styl
 ----------------
 
-Styly jsou psány v jazyce Styled Layer Descriptor. Jde o jazyk využívající 
+Styly jsou psány v jazyce `Styled Layer Descriptor`. Jde o jazyk využívající 
 syntaxi jazyka XML. 
 
 Editace je možná v jakémkoli textovém editoru. Editace je možná i v integrovaném 
@@ -17,8 +17,8 @@ Styly je možné také vytvářet v nástrojích jako je AtlasStyler, QGIS, Open
 Základní styl
 =============
 
-Velmi jednoduchý styl je styl použitý pro vrstvu sf:archsites. Jedná se o styl point.
-Styl si zobrazíme pomocí sekce Data, volba Styles a vybereme styl point.
+Velmi jednoduchý styl je styl použitý pro vrstvu `sf:archsites`. Jedná se o styl `point`.
+Styl si zobrazíme pomocí sekce `Data`, volba `Styles` a vybereme styl `point`.
 
 .. figure:: images/point2.png
 
@@ -72,35 +72,35 @@ Style je možné přímo editovat
 
 Rule
 ^^^^
-Hlavní částí stylu jsou pravidla. V naší ukázce je pouze jedno pravidlo.
+Hlavní částí stylu jsou pravidla (`Rule`). V naší ukázce je pouze jedno pravidlo.
 Pravidla jsou pojmenována a obsahují informaci jak se má skupina objektů vykreslit.
 V našem případě se daným pravidlem vykreslí všechny objekty.
 
 PointSymbolizer
 ^^^^^^^^^^^^^^^
-PointSymbolizer slouží k vykreslení bodů. V rámci definice je pak definována grafika (Graphic),
+`PointSymbolizer` slouží k vykreslení bodů. V rámci definice je pak definována grafika (`Graphic`),
 která bude použita.
 
 Mark
 ^^^^
-V našem případě jde o grafiku definovanou pomocí WellKnownName a Fill. WellKnownName udává sybol 
-a Fill barvu výplně szmbolu.
+V našem případě jde o grafiku definovanou pomocí `WellKnownName` a `Fill`. `WellKnownName` udává symbol 
+a `Fill` barvu výplně symbolu.
 
 Úkoly
 =====
 
 Editujte styl v rámci WWW editoru. Změňte následující parametry. Styl uložte a zkuste
-přes Layer Preview obnovit mapu.
+přes `Layer Preview` obnovit mapu.
 
 .. note:: Pokud se nic nezměnilo, pak zkuste změnit výřez mapy. Někdy je starý obrázek v paměti prohlížeče.
 
 WellKnownName
 ^^^^^^^^^^^^^
-Square změňte na circle.
+`Square` změňte na `circle`.
 
 Fill
 ^^^^
-Barvy výplně změňte z #FF0000 (červená na) #00FF00 (zelená).
+Barvy výplně změňte z #FF0000 (červená) na #00FF00 (zelená).
 
 Řešení úkolů
 ============
